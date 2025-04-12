@@ -7,7 +7,7 @@ from scipy.stats import median_abs_deviation
 from io import BytesIO
 
 st.set_page_config(layout="wide")
-st.title("RHEEDノイズ除去アプリ（複数ファイル対応 + 拡大可能グラフ）")
+st.title("RHEEDノイズ除去アプリ")
 
 st.markdown("""
 このアプリでは、RHEED強度データ（複数ファイル）に対して
